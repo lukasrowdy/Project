@@ -4,3 +4,15 @@ body{
     background-attachment: fixed;
     color:white;
 }
+table, td, th{      
+    border: 2px yellow solid;
+
+}
+th, td {padding: 10px;
+text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
